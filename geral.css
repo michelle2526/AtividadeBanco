@@ -1,0 +1,12 @@
+:root{
+    
+        --preto: #302727;
+        --vermelho: #ba2d2d;
+        --laranja: #f2511b;
+        --laranja: #f2861b;
+        --verde: #c7c730;
+    }
+
+    header ,footer{
+        background-color: var(--vermelho);
+    }
