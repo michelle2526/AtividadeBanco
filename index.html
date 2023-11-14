@@ -33,7 +33,7 @@
                     <a class="nav-link active " href="#">Sua conta BANCARIA</a>
                   </li>
                 </ul>
-                <section class="container-fluid float-end row-reverse">
+                <section class="container-fluid  text- aligh: right; row-reverse">
                   <button class="btn btn-sm " type="button" style="color: white; border-color: white; padding: 1rem;">Abra sua conta</button>
 
                 </section>
@@ -42,23 +42,19 @@
           </nav>
     </header>
     <main>
+      <section id="bannerSection" class=" container-fluid p-0 m-0"></section>
       <div id="carouselExampleFade" class="carousel slide carousel-fade p-0 my-1 mx-0">
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <div class=" bg-danger position-absolute  translate-middle-y  p-3 top-50 start-0">
+              <h1> seja bem vindo ao banco 90!</h1>
+              <p> aqui voce encontrar os melhores serviçoes e atendiemnto do brasil</p>
+              <button type="button" class="botaoConta"> Faça sua conta</button>
+            </div>
             <img src="../AtividadeBanco/images/images/banner.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="../AtividadeBanco/images/images/bannerBeneficios.jpg" class="d-block w-100" alt="...">
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+       
       </div>
       <section id="CatalogoSection" class="container-fluid p-0 my-1 mx-0 ">
                 <h3 class="my-4 text-center" >ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h3>
@@ -93,11 +89,14 @@
             <section id="contrateSection">
               <h3 class="servicos" style="color:white;">Contrate nossos serviços</h3>
               <div class="clearfix">
-                <img src="../AtividadeBanco/images/images/bannerBeneficios.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+                <img src="../AtividadeBanco/images/images/bannerBeneficios.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 p-4  rounded" alt="...">
               
-                <p class="texto " style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum saepe laboriosam amet quasi magni iusto, quis corporis eos aliquid expedita asperiores impedit vero, perspiciatis quos id? Quo fuga similique nesciunt.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi reiciendis adipisci perferendis sint esse quas temporibus recusandae quisquam nihil at alias provident deleniti qui dolore consectetur, iure nesciunt quos velit!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nisi, minima ea debitis exercitationem aliquam excepturi omnis deserunt ipsa aperiam quae? Ut laboriosam, maxime minima reiciendis nostrum sequi eum sunt.
+                <p class="texto " style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum saepe laboriosam amet quasi magni iusto, quis 
+                  corporis eos aliquid expedita asperiores impedit vero, perspiciatis quos id? Quo fuga similique nesciunt.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi reiciendis adipisci perferendis sint esse quas 
+                temporibus recusandae quisquam nihil at alias provident deleniti qui dolore consectetur, iure nesciunt quos velit!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nisi, minima ea debitis exercitationem aliquam excepturi
+                 omnis deserunt ipsa aperiam quae? Ut laboriosam, maxime minima reiciendis nostrum sequi eum sunt.
               </p>
               </div>
             </div>
@@ -106,30 +105,65 @@
                 
                  </div>
                       </section>
+                      <h3 class="cliente text-center fw-bold" style="padding-top: 2%;"> SEJA CLIENTE DE DIVERSAS MANEIRAS</h3>
+                     <section class="cartao py-5">
+                      <DIv class=" CartaodeCredito d-flex justify-content-center align-itens-center gap-5 ">
+                        <img src="../AtividadeBanco/images/images/cartaoUm.jpg" class="w-25 h-25 rounded" alt="">
+                        <img  src="../AtividadeBanco/images/images/cartaoDois.jpg" class="w-25" style="height:800px;" alt="">
+                        <img src="../AtividadeBanco/images/images/cartaoTres.jpg" class=" w-25 h-25 rounded" alt="">
+                      </DIv>
+                       </section>
 
-                      <section id="cliente text-center">
-                        <DIv class="CLIENTE  text-center"><h3>SEJA CLIENTE DE DIVERSAS MANEIRAS!</h3>
+                       <section class="fundo d-flex flex-column align-itens-center justify-content-center mx-auto m-5" style="background-color: white; box-shadow: 3px 3px 3px rgb(49, 43, 43); border-radius: 5px; padding: 3%; width: 40%;">
+                         <h5 id="introHorarios" class="text-center fw-bolder mb-4">HORARIOS DE ATENDIMENTO</h5>
+                         <table class="containe mx-auto w-80">
                           
+                            <tr>
+                              <th id="semcor" ></th>
+                              <th >segunda</th>
+                              <th >terça</th>
+                              <th >quarta</th>
+                              <th >quinta</th>
+                              <th >sexta</th>
+                            </tr>
+                          
+                         
+                            <tr>
+                              <th >Marcelo</th>
+                              <td>09:00 até as <br>13:00</td>
+                              <td>08:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                              <td>09:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                            </tr>
+                            <tr>
+                              <th>Daniela</th>
+                              <td>09:00 até as <br>13:00</td>
+                              <td>08:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                              <td>09:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                              
+                            </tr>
+                            <tr>
+                              <th >Joao</th>
+                              <td>09:00 até as <br>13:00</td>
+                              <td>08:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                              <td>09:00 até as <br>12:00</td>
+                              <td>09:00 até as <br>14:00</td>
+                              
+                            </tr>
+                    
+                        </table>
                       
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm">
-                              <img src="../AtividadeBanco/images/images/cartaoUm.jpg" alt="">
-                            </div>
-                            <div class="col-sm">
-                              <img src="../AtividadeBanco/images/images/cartaoDois.jpg" alt="">
-                            </div>
-                            <div class="col-sm">
-                              <img src="../AtividadeBanco/images/images/cartaoTres.jpg" alt="">
-                            </div>
-                          </div>
-                        </DIv>
+                      </section>
+                       
 
                       </section>
     </main>
 
-<footer> Todos os direitos reservados a Banco 90</footer>
+<footer> <h2>Todos os direitos reservados a Banco 90</h2></footer>
 
 
 

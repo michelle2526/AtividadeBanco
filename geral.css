@@ -5,6 +5,7 @@
         --laranja: #f2511b;
         --laranja: #f2861b;
         --verde: #c7c730;
+        --branco:#ffffffff
     }
 
     header ,footer{
@@ -20,3 +21,43 @@
     display: flex;
     justify-content: flex-end;
 }
+
+button{
+
+    float: right;
+}
+th{
+    background-color: var(--vermelho);
+    text-align: center;
+    
+}
+td{
+    height: 20px;
+    border: 1px solid;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+#bannertexto{
+    background-color: #c4c42798;
+    width: 20px;
+}
+#bannerimg{
+    height: 500rem;
+    background-image:  url(../AtividadeBanco/images/images/banner.jpg);
+    background-size: 100%;
+    background-position: top;
+
+}
+@media screen and (max-windth:768px) {
+    #bannerimg{
+        height:30rem;
+    }
+}
+.botaoConta{
+    background-color: #6b5d5d;
+    float: left;
+}
+    
